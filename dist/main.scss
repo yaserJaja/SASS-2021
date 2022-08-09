@@ -1,0 +1,15 @@
+@import "./../src/1_import";
+
+@import "./../src/2_variables";
+
+$color: blue;
+
+@media(max-width: $small_screen) {
+  h1 {
+    $color: green !global ;
+    color: $color;
+  }
+  p {
+    color: $color;
+  }
+}
