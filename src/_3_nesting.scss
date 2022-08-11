@@ -1,0 +1,31 @@
+.parent {
+  .first-child {
+    font-size: 10px;
+  }
+  .second-child {
+    font-size: 10px;
+  }
+  > {
+    div {
+      width: 300px;
+    }
+  }
+  + {
+    p {
+      color: $color;
+    }
+  }
+  &.red {
+    background: $color;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.parent-one, .parent-two {
+  padding: 20px;
+  .first-child {
+    padding: 10px;
+  }
+}

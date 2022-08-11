@@ -1,0 +1,16 @@
+$theme: "dark";
+.page {
+  @if $theme == "light" {
+    background-color: #fff;
+    color: #000;
+  }@else {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+$rounded: false;
+
+div {
+  border-radius: if($rounded, "10px", null);
+}

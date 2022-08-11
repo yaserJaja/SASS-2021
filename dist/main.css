@@ -4,8 +4,8 @@
 */
 h1 {
   padding: 10px;
-  -webkit-transform: translateX(10px);
-          transform: translateX(10px); }
+  transform: translateX(10px);
+}
 
 /*
 Declaration:
@@ -16,9 +16,85 @@ convert local scope to global scope:
 */
 @media (max-width: 767px) {
   h1 {
-    color: green; }
-
+    color: green;
+  }
   p {
-    color: green; } }
+    color: green;
+  }
+}
+.parent .first-child {
+  font-size: 10px;
+}
+.parent .second-child {
+  font-size: 10px;
+}
+.parent > div {
+  width: 300px;
+}
+.parent + p {
+  color: green;
+}
+.parent.red {
+  background: green;
+}
+.parent:hover {
+  cursor: pointer;
+}
 
-/*# sourceMappingURL=main.css.map */
+.parent-one, .parent-two {
+  padding: 20px;
+}
+.parent-one .first-child, .parent-two .first-child {
+  padding: 10px;
+}
+
+h1 {
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.main-salary, .main-products {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-products, .main-salary {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+}
+
+.main-salary {
+  margin: auto;
+}
+
+.page {
+  background-color: #000;
+  color: #fff;
+}
+
+.ad-Elzero {
+  color: #fff;
+  background: url("img/Elzero.png");
+}
+
+.ad-Elzero-ufh3xwu {
+  padding: 20px;
+}
+
+/* This Comment Will Show In CSS File But Not In Compressed Mode */
+/*! This Comment Will Show In CSS File And In Compressed Mode */
+.box {
+  font-size: 20px;
+}
+
+/* This Comment Contains Interpolation => Elzero */
+.circle-100 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */

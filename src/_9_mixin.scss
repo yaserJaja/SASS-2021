@@ -1,0 +1,13 @@
+/// @mixin
+/// @inculde
+
+
+@mixin circle($dimension) {
+  width: $dimension;
+  height: $dimension;
+  border-radius: 50%;
+}
+
+.circle-100 {
+  @include circle(100px);
+}

@@ -13,3 +13,21 @@ $color: blue;
     color: $color;
   }
 }
+
+@import "./../src/3_nesting";
+
+// @use './../src/3_nesting';
+
+@import "./../src/4_property";
+
+
+@import "./../src/5_placeholder";
+
+@import "./../src/6_conditions";
+
+@import "./../src/7_interpolation";
+
+@import "./../src/8_comment";
+
+@import "./../src/9_mixin";
+

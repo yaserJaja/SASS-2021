@@ -1,0 +1,11 @@
+// unique-id()
+
+$company: "Elzero";
+
+.ad-#{$company} {
+  color: #fff;
+  background: url("img/#{$company}.png");
+}
+.ad-#{$company}-#{unique-id()} {
+  padding: 20px;
+}
