@@ -82,7 +82,7 @@ h1 {
   background: url("img/Elzero.png");
 }
 
-.ad-Elzero-ufh3xwu {
+.ad-Elzero-ub6sobg {
   padding: 20px;
 }
 
@@ -97,4 +97,247 @@ h1 {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  font-size: 10px;
+}
+
+@-webkit-keyframes Car {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes Car {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .media {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+}
+
+/* ================== */
+.circle-100 {
+  width: 100;
+  height: 100;
+  border-radius: 50%;
+}
+
+.circle-200 {
+  width: 200;
+  height: 200;
+  border-radius: 50%;
+}
+
+.circle-300 {
+  width: 300;
+  height: 300;
+  border-radius: 50%;
+}
+
+.circle-400 {
+  width: 400;
+  height: 400;
+  border-radius: 50%;
+}
+
+.circle-500 {
+  width: 500;
+  height: 500;
+  border-radius: 50%;
+}
+
+.circle-600 {
+  width: 600;
+  height: 600;
+  border-radius: 50%;
+}
+
+.circle-700 {
+  width: 700;
+  height: 700;
+  border-radius: 50%;
+}
+
+.circle-800 {
+  width: 800;
+  height: 800;
+  border-radius: 50%;
+}
+
+.circle-900 {
+  width: 900;
+  height: 900;
+  border-radius: 50%;
+}
+
+.circle-1000 {
+  width: 1000;
+  height: 1000;
+  border-radius: 50%;
+}
+
+.square-100 {
+  width: 100;
+  height: 100;
+}
+
+.square-200 {
+  width: 200;
+  height: 200;
+}
+
+.square-300 {
+  width: 300;
+  height: 300;
+}
+
+.square-400 {
+  width: 400;
+  height: 400;
+}
+
+.square-500 {
+  width: 500;
+  height: 500;
+}
+
+.square-600 {
+  width: 600;
+  height: 600;
+}
+
+.square-700 {
+  width: 700;
+  height: 700;
+}
+
+.square-800 {
+  width: 800;
+  height: 800;
+}
+
+.square-900 {
+  width: 900;
+  height: 900;
+}
+
+.red-theme {
+  background-color: #fff;
+  color: red;
+}
+
+.blue-theme {
+  background-color: #fff;
+  color: blue;
+}
+
+.green-theme {
+  background-color: #fff;
+  color: green;
+}
+
+.facebook {
+  color: blue;
+}
+
+.youtube {
+  color: red;
+}
+
+.github {
+  color: black;
+}
+
+.size-1px {
+  border: 1px solid red;
+}
+
+.size-2px {
+  border: 2px dashed blue;
+}
+
+.size-3px {
+  border: 3px dotted green;
+}
+
+.width-100 {
+  width: 100px;
+}
+
+.width-200 {
+  width: 200px;
+}
+
+.width-300 {
+  width: 300px;
+}
+
+.width-400 {
+  width: 400px;
+}
+
+.width-500 {
+  width: 500px;
+}
+
+.element {
+  width: 100px;
+  height: 50px;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,9 @@
+@function half($size) {
+  @return $size / 2;
+}
+
+$width: 100px;
+.element {
+  width: $width;
+  height: half($width);
+}

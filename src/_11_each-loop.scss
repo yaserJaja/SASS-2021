@@ -1,0 +1,28 @@
+$themes: red, blue, green;
+
+@each $theme in $themes {
+  .#{$theme}-theme {
+    background-color: #fff;
+    color: $theme;
+  }
+}
+
+$social: (
+  'facebook': blue,
+  'youtube': red,
+  'github': black
+);
+
+@each $name, $color in $social {
+  .#{$name} {
+    color: $color;
+  }
+}
+
+$border: 1px solid red, 2px dashed blue, 3px dotted green;
+
+@each $size, $style, $color in $border {
+  .size-#{$size} {
+    border: $size $style $color;
+  }
+}

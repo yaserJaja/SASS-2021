@@ -1,0 +1,10 @@
+// [1] Grid System In Bootstrap
+
+$max_columns_in_line: 12;
+@for $i from 1 through $max_columns_in_line {
+  .col-#{$i}{
+    width: percentage($i / $max_columns_in_line);
+  }
+}
+
+// [2]

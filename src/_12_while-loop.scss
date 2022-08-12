@@ -1,0 +1,8 @@
+$start: 1;
+
+@while $start <= 5 {
+  .width-#{$start * 100} {
+    width: $start * 100px;
+  }
+  $start: $start + 1;
+}
